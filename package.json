@@ -1,0 +1,26 @@
+{
+    "name": "base-venue",
+    "private": true,
+    "scripts": {
+        "build": "gridsome build",
+        "develop": "gridsome develop",
+        "explore": "gridsome explore"
+    },
+    "dependencies": {
+        "@benface/tailwindcss-reset": "^2.0.1",
+        "@gridsome/source-contentful": "^0.5.2",
+        "@zefman/gridsome-source-instagram": "^0.1.3",
+        "gridsome": "^0.7.0",
+        "gridsome-plugin-tailwindcss": "^2.2.48",
+        "jquery": "^3.5.0",
+        "moment": "^2.25.1",
+        "owl.carousel": "^2.3.4",
+        "tailwindcss-aspect-ratio": "^3.0.0",
+        "vue-animejs": "^2.1.1",
+        "vue-flip-toolkit": "^1.6.0",
+        "vue-overdrive": "^1.2.0",
+        "vue-slide-up-down": "^2.0.1",
+        "vue-video-section": "^1.0.2",
+        "vue2-filters": "^0.11.0"
+    }
+}
