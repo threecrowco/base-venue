@@ -1,10 +1,10 @@
 <template>
-    <div class="antialiased flex flex-col justify-between min-h-screen">
+    <div class="flex flex-col justify-between min-h-screen antialiased">
         <site-header />
         <div class="flex-grow">
             <slot />
         </div>
-        <site-footer class="bg-gray-200 py-6" />
+        <site-footer class="py-6 bg-gray-200" />
     </div>
 </template>
 

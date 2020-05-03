@@ -1,7 +1,7 @@
 <template>
     <div>
-        <topbar />
-        <header class="header bg-gray-200 py-6 px-8 hidden lg:flex justify-between items-center">
+        <topbar class="hidden" />
+        <header class="items-center justify-between hidden px-8 py-6 bg-gray-200 header lg:flex">
             <h2>Base - Venue</h2>
             <nav class="space-x-12">
                 <g-link to="/">Home</g-link>
@@ -12,7 +12,7 @@
             </nav>
         </header>
         <header class="flex flex-col lg:hidden">
-            <div class="flex justify-between items-center">
+            <div class="flex items-center justify-between">
                 <h2>Base - Venue (mobile)</h2>
                 <button @click="toggle">Menu</button>
             </div>
@@ -24,7 +24,7 @@
                 <g-link class="py-3" to="/menu/">Menu</g-link>
                 <g-link class="py-3" to="/events/">Events</g-link>
                 <g-link class="py-3" to="/contact/">Contact</g-link>
-                <div class="flex justify-evenly items-center py-3">
+                <div class="flex items-center py-3 justify-evenly">
                     <a href="#">Facebook</a>
                     <a href="#">Instagram</a>
                     <a href="#">Twitter</a>

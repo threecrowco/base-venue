@@ -6,15 +6,16 @@
 
 module.exports = {
     siteName: 'BASE - Venu',
+
     plugins: [
         {
-            use: 'gridsome-plugin-tailwindcss'
+            use: 'gridsome-plugin-tailwindcss',
         },
         {
             use: '@zefman/gridsome-source-instagram',
             options: {
-                username: 'instagram'
-            }
-        }
-    ]
-};
+                username: 'instagram',
+            },
+        },
+    ],
+}
