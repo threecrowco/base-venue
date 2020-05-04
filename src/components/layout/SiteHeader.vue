@@ -35,36 +35,36 @@
 </template>
 
 <script>
-import Topbar from '@/components/layout/Topbar.vue'
-import $ from 'jquery'
-export default {
-    name: 'SiteHeader',
-    components: {
-        Topbar
-    },
-    data() {
-        return {
-            active: false
-        }
-    },
-    methods: {
-        toggle() {
-            this.active = !this.active
-        }
-    },
-    mounted() {
-        // $(document).on('scroll', function() {
-        //     if ($(document).scrollTop() > 80) {
-        //         $('.header').addClass('shrink')
-        //     } else {
-        //         $('.header').removeClass('shrink')
-        //     }
-        // })
+    import Topbar from '@/components/layout/Topbar.vue'
+    import $ from 'jquery'
+    export default {
+        name: 'SiteHeader',
+        components: {
+            Topbar,
+        },
+        data() {
+            return {
+                active: false,
+            }
+        },
+        methods: {
+            toggle() {
+                this.active = !this.active
+            },
+        },
+        mounted() {
+            // $(document).on('scroll', function() {
+            //     if ($(document).scrollTop() > 80) {
+            //         $('.header').addClass('shrink')
+            //     } else {
+            //         $('.header').removeClass('shrink')
+            //     }
+            // })
+        },
     }
-}
 </script>
 <style>
-/* .header {
+    /* .header {
     position: fixed;
     top: 0;
     width: 100vw;

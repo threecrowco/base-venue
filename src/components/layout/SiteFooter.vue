@@ -2,12 +2,12 @@
     <div>
         <footer class="hidden lg:flex">
             <div class="max-w-screen-xl mx-auto">
-                <p>&copy;{{ currentYear() }} {{ $static.metadata.siteName }}. All rights reserved.</p>
+                <p class="text-xs">&copy;{{ currentYear() }} {{ $static.metadata.siteName }}. All rights reserved.</p>
             </div>
         </footer>
         <footer class="flex lg:hidden">
             <div class="max-w-screen-xl mx-auto">
-                <p>&copy;{{ currentYear() }} {{ $static.metadata.siteName }}. All rights reserved.</p>
+                <p class="text-xs">&copy;{{ currentYear() }} {{ $static.metadata.siteName }}. All rights reserved.</p>
             </div>
         </footer>
     </div>
