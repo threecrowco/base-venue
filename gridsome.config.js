@@ -17,5 +17,19 @@ module.exports = {
                 username: 'instagram',
             },
         },
+        {
+            use: 'gridsome-plugin-svg',
+        },
+        {
+            use: '@gridsome/source-contentful',
+            options: {
+                space: 'r88tobwk8bma',
+                accessToken: 'Fdc-L8XET8c0t6t8frhiO6MNKntJVmIstngHUYN0S9c',
+                typeName: 'Contentful',
+            },
+        },
     ],
+    templates: {
+        ContentfulEvent: '/event/:slug/',
+    },
 }
